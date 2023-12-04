@@ -1,6 +1,7 @@
 package com.diegomd.school.entities;
 
-public abstract class Person implements PersonInterface {
+public abstract class Person implements IPerson {
+
     private String name;
     private String cpf;
     private String email;
