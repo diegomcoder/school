@@ -30,7 +30,7 @@ public class Student extends Person {
         double gradesSum = 0.0;
         for (double grade : GRADES)
             gradesSum+= grade;
-        return gradesSum / UNITS;
+        return Math.round(gradesSum / UNITS);
     }
 
     private int getUnitByMonth(int month) {
